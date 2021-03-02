@@ -19,7 +19,10 @@ const Footer = () => {
         </a>
       </SocialWrapper>
 
-      <p>Primeira versão do meu portfólio. Feito com carinho.</p>
+      <p>
+        Primeira versão do meu portfólio. Ainda está em processo de mudança.
+        Site feito usando React.js e Styled-Components
+      </p>
     </FooterContainer>
   );
 };
