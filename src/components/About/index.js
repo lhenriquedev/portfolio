@@ -23,7 +23,14 @@ function About() {
             outros desevolvedores e iniciantes a entrarem no mercado de
             trabalho.
           </p>
-          <ButtonStyled backgroundColor="#75CB7C">Linkedin</ButtonStyled>
+          <ButtonStyled
+            as="a"
+            target="_blank"
+            href="https://www.linkedin.com/in/henriqueferris/"
+            backgroundColor="#75CB7C"
+          >
+            Linkedin
+          </ButtonStyled>
         </AboutTextContainer>
       </Container>
     </AboutSection>

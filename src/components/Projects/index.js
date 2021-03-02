@@ -36,7 +36,9 @@ export default function Projects() {
               </p>
             </TextWrapper>
             <ButtonStyled
-              href="https://www.google.com"
+              as="a"
+              target="_blank"
+              href="https://github.com/lhenriquedev/mobile-first"
               backgroundColor="#3F3D56"
             >
               Github
@@ -55,7 +57,9 @@ export default function Projects() {
               </p>
             </TextWrapper>
             <ButtonStyled
-              href="https://www.google.com"
+              as="a"
+              target="_blank"
+              href="https://github.com/lhenriquedev/ong-project"
               backgroundColor="#3F3D56"
             >
               Github
@@ -74,7 +78,9 @@ export default function Projects() {
               </p>
             </TextWrapper>
             <ButtonStyled
-              href="https://www.google.com"
+              as="a"
+              target="_blank"
+              href="https://github.com/lhenriquedev/booksmark-frontendmentor"
               backgroundColor="#3F3D56"
             >
               Github
@@ -93,7 +99,9 @@ export default function Projects() {
               </p>
             </TextWrapper>
             <ButtonStyled
-              href="https://www.google.com"
+              as="a"
+              target="_blank"
+              href="https://github.com/lhenriquedev/crypto-tracker"
               backgroundColor="#3F3D56"
             >
               Github
