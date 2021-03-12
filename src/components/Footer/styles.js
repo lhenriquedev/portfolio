@@ -4,15 +4,17 @@ export const FooterContainer = styled.footer`
   border-top: 1px solid #ddd;
   padding: 10rem 0;
   width: 100%;
-  height: 20rem;
+  height: 25rem;
   background-color: #3f3d56;
 
   p {
-    font-size: 1.6rem;
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    line-height: 1.6;
     text-align: center;
     margin-top: 2rem;
     color: #eee;
-    font-weight: 600;
+    font-weight: 400;
   }
 `;
 
