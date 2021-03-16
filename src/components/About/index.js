@@ -8,7 +8,7 @@ import { AboutSection, AboutTextContainer } from "./styles";
 
 function About() {
   return (
-    <AboutSection>
+    <AboutSection id="about">
       <Container>
         <AboutTextContainer>
           <h3>Sobre mim</h3>

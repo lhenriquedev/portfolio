@@ -14,7 +14,7 @@ import {
 
 export default function Projects() {
   return (
-    <SectionProjects>
+    <SectionProjects id="projects">
       <Container>
         <TextContainer>
           <h3>Meus Projetos</h3>
@@ -26,7 +26,7 @@ export default function Projects() {
         <WrapperCard>
           <Card>
             <ImageWrapper>
-              <img src="assets/img/project-1.png" />
+              <img src="assets/img/project-1.png" alt="Cosmo Junkie preview" />
             </ImageWrapper>
             <TextWrapper>
               <h4>Cosmo Junkie</h4>
@@ -47,13 +47,13 @@ export default function Projects() {
 
           <Card>
             <ImageWrapper>
-              <img src="assets/img/project-2.png" />
+              <img src="assets/img/project-2.png" alt="ONG preview" />
             </ImageWrapper>
             <TextWrapper>
               <h4>Doguinhos</h4>
               <p>
-                Projeto desenvolvido em uma cadeira de Desenvolvimento Web II na
-                Fauldade Senac - FSPOA.
+                Projeto desenvolvido no curso Desenvolvimento de Interfaces Web
+                no curso ADS.
               </p>
             </TextWrapper>
             <ButtonStyled
@@ -68,7 +68,10 @@ export default function Projects() {
 
           <Card>
             <ImageWrapper>
-              <img src="assets/img/project-3.png" />
+              <img
+                src="assets/img/project-3.png"
+                alt="Frontend mentor challenge"
+              />
             </ImageWrapper>
             <TextWrapper>
               <h4>Bookmark</h4>
@@ -89,7 +92,7 @@ export default function Projects() {
 
           <Card>
             <ImageWrapper>
-              <img src="assets/img/project-4.png" />
+              <img src="assets/img/project-4.png" alt="crypto project" />
             </ImageWrapper>
             <TextWrapper>
               <h4>Crypto Tracker</h4>

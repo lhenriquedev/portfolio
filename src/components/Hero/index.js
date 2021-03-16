@@ -36,7 +36,7 @@ function Hero() {
               </ButtonStyled>
             </WrapperButton>
           </TextContainer>
-          <img src="assets/img/coding.svg" />
+          <img src="assets/img/coding.svg" alt="Art of a man coding" />
         </WrapperHero>
       </Container>
     </SectionText>

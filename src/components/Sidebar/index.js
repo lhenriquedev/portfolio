@@ -17,9 +17,9 @@ const Sidebar = ({ isOpen, handleToggle }) => {
 
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='about'>Sobre</SidebarLink>
-          <SidebarLink to='skills'>Conhecimentos</SidebarLink>
-          <SidebarLink to='projects'>Projetos</SidebarLink>
+          <SidebarLink to="about">Sobre</SidebarLink>
+          <SidebarLink to="skills">Conhecimentos</SidebarLink>
+          <SidebarLink to="projects">Projetos</SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>
@@ -27,8 +27,3 @@ const Sidebar = ({ isOpen, handleToggle }) => {
 };
 
 export default Sidebar;
-
-const pessoa = {
-  nome: "Lucas",
-  altura: "Marques",
-};

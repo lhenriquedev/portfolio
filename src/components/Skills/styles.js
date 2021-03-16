@@ -11,12 +11,12 @@ export const SkillsContainer = styled.section`
   }
 `;
 
-export const SkillsUl = styled.article`
+export const SkillsWrapper = styled.article`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   align-items: center;
   justify-content: center;
-  gap: 1.6rem;
+  gap: 2rem;
   height: auto;
 
   figure {

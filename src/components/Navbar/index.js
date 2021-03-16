@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
+// import { Link } from "react-router-dom";
 
 import {
   Nav,
@@ -15,7 +16,7 @@ function Navbar({ handleToggle }) {
   return (
     <Nav>
       <NavContainer>
-        <NavLogo to='/'>Henrique.</NavLogo>
+        <NavLogo to="/">Henrique.</NavLogo>
 
         <MobileIcon onClick={handleToggle}>
           <FaBars />
@@ -23,15 +24,15 @@ function Navbar({ handleToggle }) {
 
         <NavMenu>
           <NavItem>
-            <NavLink to='about'>Sobre</NavLink>
+            <NavLink to="about">Sobre</NavLink>
           </NavItem>
 
           <NavItem>
-            <NavLink to='skills'>Conhecimentos</NavLink>
+            <NavLink to="skills">Conhecimentos</NavLink>
           </NavItem>
 
           <NavItem>
-            <NavLink to='projects'>Projetos</NavLink>
+            <NavLink to="projects">Projetos</NavLink>
           </NavItem>
         </NavMenu>
       </NavContainer>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ButtonStyled } from "../Button/styles";
 
 export const SectionProjects = styled.section`
   padding: 10rem 0;
@@ -39,14 +40,33 @@ export const WrapperCard = styled.div`
 `;
 
 export const Card = styled.article`
+  display: flex;
+  flex-direction: column;
+
   width: 100%;
   height: 50rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+  position: relative;
+
+  ${ButtonStyled} {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    width: 100%;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
 `;
 
 export const ImageWrapper = styled.div`
+  align-self: flex-start;
   width: 100%;
-  height: 20rem;
+  height: 25rem;
+  border-bottom: 1px solid #ccc;
 
   img {
     width: 100%;
@@ -57,9 +77,15 @@ export const ImageWrapper = styled.div`
 
 export const TextWrapper = styled.div`
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
   h4 {
     font-size: 2.4rem;
-    margin-top: 1.5rem;
+    color: #75cb7c;
   }
   p {
     font-size: 1.6rem;

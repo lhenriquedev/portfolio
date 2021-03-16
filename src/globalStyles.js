@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   html {
-    font-size: 62.5%;
+    font-size: 10px;
   }
   body {
     overflow-x: hidden;
@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
 
 export const Container = styled.div`
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 2rem;
 `;

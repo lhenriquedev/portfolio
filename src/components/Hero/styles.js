@@ -53,7 +53,7 @@ export const WrapperHero = styled.div`
     justify-content: space-between;
 
     img {
-      width: 50%;
+      width: 40%;
     }
   }
 `;
@@ -64,6 +64,7 @@ export const WrapperButton = styled.div`
 
   @media (min-width: 960px) {
     flex-direction: row;
+    align-self: flex-start;
 
     ${ButtonStyled}:not(:last-child) {
       margin-right: 3rem;
