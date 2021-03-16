@@ -5,16 +5,16 @@ const Footer = () => {
   return (
     <FooterContainer>
       <SocialWrapper>
-        <a href="https://github.com/lhenriquedev">
+        <a href="https://github.com/lhenriquedev" target="_blank">
           <img src="assets/img/github.svg" alt="github icon" />
         </a>
-        <a href="https://www.instagram.com/lhenrique.marques/">
+        <a href="https://www.instagram.com/lhenrique.marques/" target="_blank">
           <img src="assets/img/instagram.svg" alt="instagram icon" />
         </a>
-        <a href="https://twitter.com/lhenrique_dev">
+        <a href="https://twitter.com/lhenrique_dev" target="_blank">
           <img src="assets/img/twitter.svg" alt="twitter icon" />
         </a>
-        <a href="https://www.linkedin.com/in/henriqueferris/">
+        <a href="https://www.linkedin.com/in/henriqueferris/" target="_blank">
           <img src="assets/img/linkedin.svg" alt="linkedin icon" />
         </a>
       </SocialWrapper>

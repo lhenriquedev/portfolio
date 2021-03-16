@@ -14,6 +14,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  border-bottom: 1px solid #ddd;
 
   @media screen and (min-width: 768px) {
     transition: 0.8s all ease;
